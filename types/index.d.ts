@@ -12,6 +12,6 @@ interface autoRouterOption{
   trailingSlash?:boolean
 }
 /*~ Here, declare the same module as the one you imported above */
-declare module 'auto-router' {
+declare module 'vue-auto-router2' {
   export function createRoutes (option:autoRouterOption):RouteConfig[]
 }
