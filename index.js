@@ -181,3 +181,6 @@ const getRoutePathExtension = (key) => {
 export default {
   createRoutes
 }
+export {
+  createRoutes
+}
