@@ -7,10 +7,22 @@
 
 ## 使用
 
+```bash
+npm i vue -S
+npm i vue-router -S
+npm i vue-auto-router2 -S
+```
+
+
+
 ```javascript
+import {autoRouter} from 'vue-auto-router2'
+const router = new VueRouter({...})
+                              
 const routes = autoRouter({
-  views: require.context('./views/demo', true, /.*\.vue$/)
+  views: require.context('./pages', true, /.*\.vue$/)
 })
+
 router.addRoutes(routes)
 ```
 
