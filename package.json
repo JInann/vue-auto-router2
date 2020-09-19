@@ -1,6 +1,6 @@
 {
   "name": "vue-auto-router2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -8,6 +8,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "yanb",
-  "license": "ISC"
+  "author": {
+    "name": "xh.j"
+  },
+  "homepage": "https://github.com/JInann/vue-auto-router2",
+  "bugs": {
+    "url": "https://github.com/JInann/vue-auto-router2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JInann/vue-auto-router2.git"
+  },
+  "license":"MIT"
 }
